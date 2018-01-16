@@ -1,0 +1,13 @@
+---
+site: blogdown:::blogdown_site
+---
+
+```{r}
+install.packages("blogdown")
+blogdown::install_hugo()
+# blogdown::install_theme('nstrayer/tuftesque')
+blogdown::install_theme("gcushen/hugo-academic")
+blogdown::serve_site()
+blogdown::new_post("rstudio proxy nightmare", ext=".Rmd")
+```
+
