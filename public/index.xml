@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The Value of Treatment Processes in Germany: A Discrete Choice Experiment on Patient Preferences in Complementary and Conventional Medicine</title>
+      <link>/publication/thevalueoftreatment_adam/</link>
+      <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/thevalueoftreatment_adam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
       <link>/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
@@ -296,16 +305,6 @@ Figure 1: A fancy pie chart.
 
 #ggplot2::ggplot(df, aes(x=factor(1), fill=col)) + geom_bar(width=1, aes(y=value)) + coord_polar(&amp;quot;y&amp;quot;, start=-50)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile visual clothing search</title>
-      <link>/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
