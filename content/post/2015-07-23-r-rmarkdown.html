@@ -41,9 +41,18 @@ pie(
   init.angle = -50, border = NA
 )</code></pre>
 <div class="figure"><span id="fig:pie"></span>
-<img src="/rmarkdown-libs/figure-html4/pie-1.png" alt="A fancy pie chart." width="672" />
+<img src="/rmarkdown-libs/figure-html4/pie-1.png" alt="A fancy pie chart." width="1440" />
 <p class="caption">
 Figure 1: A fancy pie chart.
 </p>
 </div>
+<pre class="r"><code>
+#df &lt;- tibble::data_frame(
+#  group = c(&quot;Sky&quot;, &quot;Sunny side of pyramid&quot;, &quot;Shady side of pyramid&quot;),
+#  value= c(280, 60, 20),
+#  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;)
+#)
+#library(ggplot2)
+
+#ggplot2::ggplot(df, aes(x=factor(1), fill=col)) + geom_bar(width=1, aes(y=value)) + coord_polar(&quot;y&quot;, start=-50)</code></pre>
 </div>

@@ -281,11 +281,20 @@ pie(
   init.angle = -50, border = NA
 )&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/rmarkdown-libs/figure-html4/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;/rmarkdown-libs/figure-html4/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;1440&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: A fancy pie chart.
 &lt;/p&gt;
 &lt;/div&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;
+#df &amp;lt;- tibble::data_frame(
+#  group = c(&amp;quot;Sky&amp;quot;, &amp;quot;Sunny side of pyramid&amp;quot;, &amp;quot;Shady side of pyramid&amp;quot;),
+#  value= c(280, 60, 20),
+#  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;)
+#)
+#library(ggplot2)
+
+#ggplot2::ggplot(df, aes(x=factor(1), fill=col)) + geom_bar(width=1, aes(y=value)) + coord_polar(&amp;quot;y&amp;quot;, start=-50)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 </description>
     </item>

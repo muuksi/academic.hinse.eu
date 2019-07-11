@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.32.4" />
-  <meta name="author" content="Lena Smith">
+  <meta name="author" content="Maximilian Hinse">
 
   
   
@@ -75,8 +75,8 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
 
   <meta property="twitter:card" content="summary_large_image">
   
-  <meta property="twitter:site" content="@GeorgeCushen">
-  <meta property="twitter:creator" content="@GeorgeCushen">
+  <meta property="twitter:site" content="@muuksi">
+  <meta property="twitter:creator" content="@muuksi">
   
   <meta property="og:site_name" content="Academic">
   <meta property="og:url" content="/post/2015-07-23-r-rmarkdown/">
@@ -208,25 +208,6 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
         
 
         <li class="nav-item">
-          <a href="/#teaching">
-            
-            <span>Teaching</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
           <a href="/#contact">
             
             <span>Contact</span>
@@ -262,11 +243,11 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
   <span class="article-date">
     
     <time datetime="2015-07-23 21:13:14 -0500 -0500" itemprop="datePublished dateModified">
-      Jul 23, 2015
+      23. Jul 2015
     </time>
   </span>
   <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Lena Smith">
+    <meta itemprop="name" content="Maximilian Hinse">
   </span>
 
   
@@ -277,6 +258,9 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
   
 
   
+  
+  <span class="middot-divider"></span>
+  <a href="/post/2015-07-23-r-rmarkdown/#disqus_thread"></a>
   
 
   
@@ -374,11 +358,20 @@ pie(
   init.angle = -50, border = NA
 )</code></pre>
 <div class="figure"><span id="fig:pie"></span>
-<img src="/rmarkdown-libs/figure-html4/pie-1.png" alt="A fancy pie chart." width="672" />
+<img src="/rmarkdown-libs/figure-html4/pie-1.png" alt="A fancy pie chart." width="1440" />
 <p class="caption">
 Figure 1: A fancy pie chart.
 </p>
 </div>
+<pre class="r"><code>
+#df &lt;- tibble::data_frame(
+#  group = c(&quot;Sky&quot;, &quot;Sunny side of pyramid&quot;, &quot;Shady side of pyramid&quot;),
+#  value= c(280, 60, 20),
+#  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;)
+#)
+#library(ggplot2)
+
+#ggplot2::ggplot(df, aes(x=factor(1), fill=col)) + geom_bar(width=1, aes(y=value)) + coord_polar(&quot;y&quot;, start=-50)</code></pre>
 </div>
 
       </div>
@@ -410,6 +403,29 @@ Figure 1: A fancy pie chart.
 
 <div class="article-container">
   
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "muuksi" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
 
 </div>
 
@@ -463,6 +479,8 @@ Figure 1: A fancy pie chart.
 
     
     
+    <script id="dsq-count-scr" src="//muuksi.disqus.com/count.js" async></script>
+    
 
     
 
@@ -484,6 +502,8 @@ Figure 1: A fancy pie chart.
       <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
       
 
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
       
 
       
