@@ -1,9 +1,9 @@
 +++
 # Date this page was created.
-date = "2016-04-27"
+date = "2019-07-12"
 
 # Project title.
-title = "External Project"
+title = "External Link"
 
 # Project summary to display on homepage.
 summary = "An example of linking directly to an external project website using `external_link`."
